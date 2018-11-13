@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Danila](https://up.htmlacademy.ru/htmlcss/23/user/897607).
-* Наставник: Александр Уразаев (https://htmlacademy.ru/profile/urazaev)
+* Наставник: [Александр Уразаев](https://htmlacademy.ru/profile/urazaev)
 
 ---
 
