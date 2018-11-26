@@ -25,7 +25,7 @@
   </header>
 
   <main>
-    <img class="welcome" src="img/intro-welcome.svg" height="353" widthl="459" alt="welcome">
+    <img class="welcome" src="img/intro-welcome.svg" height="353" width="459" alt="welcome">
 
     <section class="main-head">
     	<b class="main-info">Седона - небольшой городок в аризоне, заслуживающий большего!</b>
@@ -104,16 +104,20 @@
         <form class="user" method="post" action="https://echo.htmlacademy.ru">
 
           <label for="user-date">Дата заезда:</label>
-          <input id="arrival-date" type="date" name="arrival-date" aria-label="Выберите дату заезда">
+          <input id="arrival-date" type="text" name="arrival-date" aria-label="Выберите дату заезда">
      
           <label for="user-date">Дата выезда:</label>
-          <input id="departure-date" type="date" name="departure-date" aria-label="Выберите дату выезда">
+          <input id="departure-date" type="text" name="departure-date" aria-label="Выберите дату выезда">
 
           <label for="user-age">Взрослые:</label>
           <input id="count-old" type="number" name="count-old" value="2" aria-label="Количество взрослых">
+          <button type="button" class="adult-plus" aria-label="Увеличить количество взрослых">+</button>
+          <button type="button" class="adult-minus" aria-label="Уменьшить количество взрослых">-</button>
 
           <label for="user-age">Дети:</label>
           <input id="count-child" type="number" name="count-child" value="0" aria-label="Количество детей">
+          <button type="button" class="child-plus" aria-label="Увеличить количество детей">+</button>
+          <button type="button" class="child-minus" aria-label="Уменьшить количество детей">-</button>
 
           <button type="submit">Найти</button>
        </form>
