@@ -1,6 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic');
 
-/**
+body {
+  margin: 0;
+
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+    color: #000000; /* Цвет посещенной ссылки */
+   }
+
+
+
+.logo {
+  width: 140px;
+  height: 72px;
+}
+
+.navigation-item {
+  font-size: 14px;
+  line-height: 26px;
+  list-style: none;
+}
+
+.navigation-item-one:hover {
+	opacity: 0.3;
+  color: #000000;
+}
+
+.navigation-item-two:hover {
+	opacity: 0.3;
+  color: #000000;
+}
+
+.navigation-item-three:hover {
+	opacity: 0.3;
+  color: #000000;
+}
+
+.navigation-item-four:hover {
+	opacity: 0.3;
+  color: #000000;
+}
+
+.navigation-item-four:active {}
+
+.main-info {
+	font-size: 21px;
+  line-height: 26px;
+}
+
+.main-why {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.infoblock-first {
+	color: #ffffff;
+  width: 400px;
+  height: 256px;
+  background-color: #81b3d2;
+  text-align: center;
+}
+
+.infoblock-one-title{
+	font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.infoblock-one-tag  {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.infoblock-one-text {
+	font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.tags {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  list-style: none;
+}
+
+.tags-first-title {
+	font-size: 21px;
+  font-weight: 700;
+}
+
+.tags-second-title {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.tags-third-title {
+	font-size: 21px;
+  font-weight: 700;
+}
+
+.infoblock-second {
+	color: #ffffff;
+  width: 400px;
+  height: 256px;
+  background-color: #81b3d2;	
+  text-align: center;
+}
+
+.infoblock-two-tag  {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.infoblock-two-text {
+	font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.whys {
+	background-color: #eeeeee;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  list-style: none;
+}
+
+.why-title-first {
+	font-size: 21px;
+  font-weight: 700;
+}
+
+.why-title-secound {
+	font-size: 21px;
+  font-weight: 700;
+}
+
+.why-title-third {
+	font-size: 21px;
+  font-weight: 700;
+}
+
 .visually-hidden {
    display: none;
 }
-**/
+
+.search-title-b {
+	font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.search-title-p {
+	font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.search-main-title {
+  width: 568px;
+  height: 86px;
+  background-color: #766357;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+}
+
+.search-main-link {
+  background-color: #503e33;
+}
+
+
+.hashtag {
+	font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.htmlacademy-text {
+	font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* Гостиницы */
+
+.sorting-found {
+	font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.sorting-title {
+	font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.sorting-ul {
+	font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  opacity: 0.3;	
+  list-style: none;
+}
+
+.hotel-one-title {
+	font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.hotel-one-type {
+	font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.hotel-one-price {
+	font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.hotel-one-rate {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.hotel-one-more a{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  
+}
+
+
+.hotel-one-rent {
+	font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.hotel-two-title {
+	font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.hotel-two-type {
+	font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.hotel-two-price {
+	font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.hotel-two-rate {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.hotel-two-more {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.hotel-two-rent {
+	font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.hotel-three-title {
+	font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.hotel-three-type {
+	font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.hotel-three-price {
+	font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.hotel-three-rate {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.hotel-three-more {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.hotel-three-rent {
+	font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+
