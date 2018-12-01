@@ -13,27 +13,35 @@ a {
 	text-decoration: none;
 }
 
-a:visited {
-    color: #000000; /* Цвет посещенной ссылки */
-   }
-
-
+ /*a:visited {
+	color: #000000;
+}*/
 
 .logo {
   width: 140px;
   height: 72px;
 }
 
-.navigation-item {
+.navigation-items {
   font-size: 14px;
   line-height: 26px;
   list-style: none;
   font-weight: 700;
 }
+.navigation-items a {
+	color: #000000;
+}
 
-.navigation-item:hover {
-	opacity: 0.3;
-  color: #000000;
+.navigation-items a:hover {
+	color: #81b3d2;
+}
+
+.navigation-items a:active {
+	color: #b2b2b2;
+}
+
+.active a {
+  color: #766357;
 }
 
 .main-info {
@@ -122,13 +130,17 @@ a:visited {
   font-size: 21px;
   font-weight: 700;
   line-height: 26px;
-  text-align: center;
+ text-align:center;
 }
 
-.search-main-link {
+.search-main-title:hover {
+  background-color: #604e43;
+}
+
+.search-main-title:active {
   background-color: #503e33;
+  color: #847870;
 }
-
 
 .hashtag {
 	font-size: 21px;
@@ -156,12 +168,25 @@ a:visited {
   line-height: 18px;
 }
 
+
+
 .sorting-ul {
 	font-size: 12px;
   font-weight: 400;
   line-height: 18px;
-  opacity: 0.3;	
   list-style: none;
+  color: #b2b2b2;
+}
+.sorting-ul a {
+  color: #b2b2b2;
+}
+
+.sorting a:hover {
+  color: #81b3d2;
+}
+
+.sorting a:active {
+	color: #000000;
 }
 
 .hotel {
@@ -170,16 +195,71 @@ a:visited {
   line-height: 21px;
 }
 
+.hotel-title {
+	color: #000000;
+	font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
 .hotel-more {
   font-size: 14px;
   font-weight: 700;
   line-height: 21px;
-  
+  background: #81b3d2;
+  color: #ffffff; 
+}
+
+.hotel-more:hover {
+  background: #669ec0;
+}
+
+.hotel-more:active {
+  color: #7aadcb;
+  background: #5496bd;
 }
 
 .hotel-rent {
 	font-size: 14px;
   font-weight: 700;
   line-height: 21px;
+  background: #766357;
+  color: #ffffff; 
 }
 
+.hotel-rent:hover {
+  background: #604e43;
+}
+
+.hotel-rent:active {
+  background: #847870;
+  color: #7a6c64;
+}
+
+.hotel-title:hover {
+	color: #81b3d2;
+}
+
+.hotel-title:active {
+	color: #b2b2b2;
+}
+
+.submit-search {
+	width: 458px;
+  height: 58px;
+  background-color: #81b3d2;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  border: none;
+}
+
+.submit-search:hover {
+	background-color: #669ec0;
+}
+
+.submit-search:active {
+	color: #87b6d1;
+	background-color: #5496bd;
+}
