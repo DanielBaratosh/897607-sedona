@@ -1,78 +1,85 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <title> HTML Academy: Седона</title>
-  </head>
-  <body>
-  	<header>
 
-  	  <a href="#" class="logo">       
-  		  <img src="img/logo-sedona.svg" height="72" width="140" alt="Logo">
-  		</a>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <title> HTML Academy: Седона</title>
+</head>
 
-  		<nav>
-        <ul class="navigation-items">
-          <li class="navigation-item"><a href="#">Информация</a></li>
-          <li class="navigation-item"><a href="#">Фото и видео</a></li>
-          <li class="navigation-item"><a href="#">Карта штата</a></li>
-          <li class="navigation-item active"><a>Гостиницы</a></li>
-        </ul>
-  		</nav>
+<body>
+  <header>
+
+    <a href="#" class="logo">
+      <img src="img/logo-sedona.svg" height="72" width="140" alt="Logo">
+    </a>
+
+    <nav>
+      <ul class="navigation-items">
+        <li class="navigation-item"><a href="#">Информация</a></li>
+        <li class="navigation-item"><a href="#">Фото и видео</a></li>
+        <li class="navigation-item"><a href="#">Карта штата</a></li>
+        <li class="navigation-item active"><a>Гостиницы</a></li>
+      </ul>
+    </nav>
 
   </header>
 
   <main>
     <h2 class="visually-hidden">Панель для выбора критериев отелей</h2>
-  	<!--Тут будет калькулятор-->
+    <!--Тут будет калькулятор-->
 
-  	<section class="hotel">
+    <section class="hotel">
 
-  		<section class="sorting">
-  			<b class="sorting-found">Найдено: 3</b>
-  			<p class="sorting-title">Сортировка:</p>
+      <b class="sorting-found">Найдено: 3</b>
 
-  			<ul class="sorting-ul">
-  				<li class="sorting sorting-price"><a href="#">По цене</a></li>
-  				<li class="sorting sorting-type"><a href="#">По типу</a></li>	
-  				<li class="sorting sorting-rate"><a href="#">По рейтингу</a></li>
-  			</ul>
-  		</section>
-      
+      <section class="sorting">
+        <p class="sorting-title">Сортировка:</p>
+
+        <ul class="sorting-ul">
+          <li class="sorting sorting-price"><a href="#">По цене</a></li>
+          <li class="sorting sorting-type"><a href="#">По типу</a></li>
+          <li class="sorting sorting-rate"><a href="#">По рейтингу</a></li>
+        </ul>
+      </section>
+
       <h2 class="visually-hidden">Отели</h2>
- 
-  		<section class="hotel hotel-1">
-  			<a href="#" class="hotel-title hotel-one-title">Amara resort and spa</a>
-  			<p class="hotel-type hotel-one-type">Гостиница</p>
-  			<p class="hotel-price hotel-one-price">От 4000 Р.</p>
-  			<p class="hotel-rate hotel-one-rate">Рейтинг:8,5</p>
-  			<a href="#" class="hotel-more hotel-one-more">Подробнее</a>
-  			<a href="#" class="hotel-rent hotel-one-rent">Забронировать</a>
-  			<img src="img/hotel-desert-resor.jpg" alt="Фото отеля Amara resort and spa" class="hotel-1-img">
-  		</section>
 
-  		<section class="hotel hotel-2">
-  			<a href="#" class="hotel-title hotel-two-title">Desert quail inn</a>
-  			<p class="hotel-type hotel-two-type">Мотель</p>
-  			<p class="hotel-price hotel-two-price">От 3000 Р.</p>
-  			<p class="hotel-rate hotel-two-rate">Рейтинг:8,9</p>
-  			<a href="#" class="hotel-more hotel-two-more">Подробнее</a>
-  			<a href="#" class="hotel-rent hotel-two-rent">Забронировать</a>
-  			<img src="img/hotel-desert-quail-inn.jpg" alt="Фото отеля Desert quail inn" class="hotel-2-img">
-  	  </section>
+      <section class="hotel hotel-1">
+        <hr />
+        <a href="#" class="hotel-title hotel-one-title">Amara resort and spa</a>
+        <p class="hotel-type hotel-one-type">Гостиница</p>
+        <p class="hotel-price hotel-one-price">От 4000 Р.</p>
+        <p class="hotel-rate hotel-one-rate">Рейтинг:8,5</p>
+        <a href="#" class="hotel-more hotel-one-more">Подробнее</a>
+        <a href="#" class="hotel-rent hotel-one-rent">Забронировать</a>
+        <img src="img/hotel-desert-resor.jpg" alt="Фото отеля Amara resort and spa" class="hotel-1-img">
+        <hr />
+      </section>
 
-  		<section class="hotel hotel-3">
-  			<a href="#" class="hotel-title hotel-three-title">Villas at poco diablo</a>
-  			<p class="hotel-type hotel-three-type">Апартаменты</p>
-  			<p class="hotel-price hotel-three-price">От 2000 Р.</p>
-  			<p class="hotel-rate hotel-three-rate">Рейтинг:9,2</p>
-  			<a href="#" class="hotel-more hotel-three-more">Подробнее</a>
-  			<a href="#" class="hotel-rent hotel-three-rent">Забронировать</a>
-  			<img src="img/hotel-villas-at-poco-diablo.jpg" alt="Фото отеля Villas at poco diablo" class="hotel-2-img">
-  	  </section>
+      <section class="hotel hotel-2">
+        <a href="#" class="hotel-title hotel-two-title">Desert quail inn</a>
+        <p class="hotel-type hotel-two-type">Мотель</p>
+        <p class="hotel-price hotel-two-price">От 3000 Р.</p>
+        <p class="hotel-rate hotel-two-rate">Рейтинг:8,9</p>
+        <a href="#" class="hotel-more hotel-two-more">Подробнее</a>
+        <a href="#" class="hotel-rent hotel-two-rent">Забронировать</a>
+        <img src="img/hotel-desert-quail-inn.jpg" alt="Фото отеля Desert quail inn" class="hotel-2-img">
+        <hr />
+      </section>
+
+      <section class="hotel hotel-3">
+        <a href="#" class="hotel-title hotel-three-title">Villas at poco diablo</a>
+        <p class="hotel-type hotel-three-type">Апартаменты</p>
+        <p class="hotel-price hotel-three-price">От 2000 Р.</p>
+        <p class="hotel-rate hotel-three-rate">Рейтинг:9,2</p>
+        <a href="#" class="hotel-more hotel-three-more">Подробнее</a>
+        <a href="#" class="hotel-rent hotel-three-rent">Забронировать</a>
+        <img src="img/hotel-villas-at-poco-diablo.jpg" alt="Фото отеля Villas at poco diablo" class="hotel-2-img">
+        <hr />
+      </section>
 
     </section>
   </main>
@@ -82,17 +89,18 @@
     <b class="hashtag">#VISITSEDONA</b>
 
     <ul class="socialmedia">
-       <li><a href="#" aria-label="Сыллка на твиттер страницу Cедона">Twitter</a></li>
-       <li><a href="#" aria-label="Сыллка на facebook страницу Cедона">Facebook</a></li>
-       <li><a href="#" aria-label="Сыллка на ютуб канал Cедона">Youtube</a></li>
+      <li><a href="#" aria-label="Сыллка на твиттер страницу Cедона">Twitter</a></li>
+      <li><a href="#" aria-label="Сыллка на facebook страницу Cедона">Facebook</a></li>
+      <li><a href="#" aria-label="Сыллка на ютуб канал Cедона">Youtube</a></li>
     </ul>
 
     <section class="htmlacademy">
-       <p class="htmlacademy-text">Website by</p>
-       <a href="https://htmlacademy.ru/" class="htmlacademy-logo" aria-label="Сыллка на htmlacademy"><img src="img/logo-htmlacademy.svg" height="41" width="115" alt="htmlacademylogo"></a>
+      <p class="htmlacademy-text">Website by</p>
+      <a href="https://htmlacademy.ru/" class="htmlacademy-logo" aria-label="Сыллка на htmlacademy"><img src="img/logo-htmlacademy.svg" height="41" width="115" alt="htmlacademylogo"></a>
     </section>
 
   </footer>
 
-  </body>
+</body>
+
 </html>
