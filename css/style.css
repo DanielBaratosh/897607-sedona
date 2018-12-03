@@ -333,6 +333,8 @@ hr {
   color: #b2b2b2;
 }
 
+label {}
+
 .submit-search {
   width: 458px;
   height: 58px;
